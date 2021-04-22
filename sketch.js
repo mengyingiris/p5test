@@ -1,8 +1,8 @@
 let canvas;
 function setup() {
   // put setup code here
-  canvas= createCanvas(400,600);
-  canvas.position((windowWidth/2-200),(windowHeight/2-300));
+  canvas= createCanvas(windowWidth/2,windowHeight/2);
+  canvas.position(windowWidth/4,windowHeight/4);
   background(50);
 
 }
